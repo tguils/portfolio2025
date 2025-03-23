@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tess Guilmette – Portfolio
 
-## Getting Started
+This is a modern, minimalist [Next.js](https://nextjs.org) portfolio site, designed and developed by Tess Guilmette.
 
-First, run the development server:
+## 🛠 Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Fonts**: [next/font with Inter](https://nextjs.org/docs/app/building-your-application/optimizing/fonts)
+- **Deployment**: [Vercel](https://vercel.com)
+
+## 🚀 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/             # Entry point (uses App Router)
+│   ├── layout.tsx   # Global layout & metadata
+│   └── page.tsx     # Main landing page
+├── components/      # Reusable UI components
+├── styles/          # Tailwind CSS config & globals
+```
 
-## Learn More
+## 🧪 Features
 
-To learn more about Next.js, take a look at the following resources:
+- ✨ Accessible design (WCAG AA contrast)
+- 🎨 Custom color palette & branding
+- ⚡ Fast, performant, and SEO-optimized
+- 📱 Fully responsive layout
+- ☁️ Auto-deploys to Vercel with every push
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Update content in:
+- `src/app/page.tsx`
+- `src/components/` (modular sections)
+- `tailwind.config.ts` for branding
 
-## Deploy on Vercel
+Update metadata in:
+- `src/app/layout.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Build & Deploy
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Build the site for production:
+
+```bash
+npm run build
+```
+
+To preview production locally:
+
+```bash
+npm run start
+```
+
+Deploy on [Vercel](https://vercel.com/import) or connect your GitHub repo for CI/CD.
+
+## 📚 Learn More
+
+- [Next.js Docs](https://nextjs.org/docs)
+- [Tailwind CSS Docs](https://tailwindcss.com/docs)
+- [Vercel Guide](https://vercel.com/docs)
+
+---
+
+© 2025 Tess Guilmette. All rights reserved.
