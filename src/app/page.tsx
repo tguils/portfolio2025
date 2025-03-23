@@ -3,6 +3,10 @@ import About from './components/About'
 import Highlights from './components/Highlights'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
+import Stack from './components/Stack';
+
+
+
 
 
 export default function Home() {
@@ -11,8 +15,9 @@ export default function Home() {
       <Header />
       <About />
       <Highlights />
+      <Stack />
       <Contact />
-      <Footer />
+     <Footer />
     </main>
   )
 }
